@@ -76,6 +76,18 @@ class CreateLoginForm extends JFrame implements ActionListener
         }  
     }  
 }  
+class NewPage extends JFrame  
+{  
+    //constructor  
+    NewPage()  
+    {  
+        setDefaultCloseOperation(javax.swing.  
+        WindowConstants.DISPOSE_ON_CLOSE);  
+        setTitle("Welcome");  
+        setSize(400, 200);  
+    }  
+}  
+
 //create the main class  
 class LoginFormDemo  
 {  
